@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>
+        Let's learn Javascript!
+    </h1>
+    <a href="https://youtube.com" target="_blank" onclick="alert('Warning!')">Youtube link</a>
+
+    <hr>
+    <h2>
+        How do we display and hide text?
+    </h2>
+    <h2>
+        What's my secret to my identity?
+    </h2>
+    <p id="secret"></p>
+    <button onclick="document.getElementById('secret').innerHTML='hello hello';
+document.getElementById('secret').style.display='block';">Click Me</button></body>
+    <button onclick="document.getElementById('secret').style.display='none'">Hide</button>
+
+    <h2>How do we change an image with Javascript?</h2>
+    <img src="images/light bulb on.jpg" id="myImage" style="height: 200px; width: 200px;">
+    <button onclick="document.getElementById('myImage').src='images/light_bulb_sketch_off_800_wht.jpg'">Bulb Off</button>
+    <button onclick="document.getElementById('myImage').src='images/light bulb on.jpg'">Bulb On</button>
+
+    <h2>How to we change styles with a button?</h2>
+    <p id="alice">Hi. I am Alice</p>
+
+    <button onclick="document.getElementById('alice').style.color='blue'; document.getElementById('alice').style.fontSize='5px';">cake</button>
+    <button onclick="document.getElementById('alice').style.color='red'; document.getElementById('alice').style.fontSize='50px';">potion</button>
+
+    <br>
+    <br>
+    <p id="text size">Watch the size change!</p>
+    <button onclick="document.getElementById('text size').style.fontSize='10px';">small</button>
+    <button onclick="document.getElementById('text size').style.fontSize='70px';">big</button>
+
+    <p id="font change">Watch the color change!</p>
+    <button onclick="document.getElementById('font change').style.color='purple';">purple</button>
+    <button onclick="document.getElementById('font change').style.color='pink';">pink</button>
+    <br>
+    <br>
+    
+</html>
